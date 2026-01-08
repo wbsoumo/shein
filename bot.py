@@ -458,9 +458,3 @@ if __name__ == "__main__":
     
     user_states.clear()
     bot.polling()
-
-
-
-
-
-Is code se kya hoga english me bolo
