@@ -318,7 +318,7 @@ def get_main_keyboard():
     if is_logged_in():
         account = get_current_account()
         fetch_btn = types.KeyboardButton('ðŸš€ Fetch Orders')
-        logout_btn = types.KeyboardButton('ðŸ”“ Logout')
+        logout_btn = types.KeyboardButton(' Logout')
         markup.add(fetch_btn, logout_btn)
     else:
         login_btn = types.KeyboardButton('ðŸ” Login')
@@ -374,7 +374,7 @@ def handle_all_messages(message):
         bot.send_message(message.chat.id, f"âœ… Fetching orders for {account['mobile']}...")
         fetch_orders_for_user(account['cookies'], message.chat.id)
     
-    elif text == 'ðŸ”“ Logout':
+    elif text == ' Logout':
         if is_logged_in():
             account = get_current_account()
             clear_cookies()
