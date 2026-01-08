@@ -8,7 +8,7 @@ import uuid
 import re
 from urllib.parse import urlencode, unquote
 
-BOT_TOKEN = '8539197930:AAFZ4YZ4DX5nzv8SVgoqYir2ZWJSlth1_Zg' # change karo isko @BotFather se new token banake!
+BOT_TOKEN = '7682363834:AAGJJxnrOC4YtvWszxYVxwd237Z-k_6oAhU' # change karo isko @BotFather se new token banake!
 COOKIES_FILE = 'cookies.json' # no need to change
 AD_ID = '968777a5-36e1-42a8-9aad-3dc36c3f77b2' # no need to change
 
